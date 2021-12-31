@@ -1,10 +1,10 @@
 import AWS from 'aws-sdk';
 
 export default {
-  IAM_USER_KEY: 'AKIAWM4XU4KD4WSDYN5Q',
-  IAM_USER_SECRET: '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',
-  BUCKET_NAME: 'test-vo2',
-  AWS_REGION: 'sa-east-1',
+  IAM_USER_KEY: '',
+  IAM_USER_SECRET: '',
+  BUCKET_NAME: '',
+  AWS_REGION: '',
   uploadToS3: function (file, filename, acl = 'public-read') {
     return new Promise((resolve, reject) => {
       let IAM_USER_KEY = this.IAM_USER_KEY;
